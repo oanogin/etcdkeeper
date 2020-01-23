@@ -150,7 +150,7 @@
 		var serverBase = '/v3';
 		var etcdBase = Cookies.get('etcd-endpoint');
 		if(typeof(etcdBase) === 'undefined') {
-			etcdBase = 'etcd-cluster-client:2379';
+			etcdBase = 'etcd-cluster:2379';
 		}
 
         // version switch
